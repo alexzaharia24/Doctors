@@ -20,7 +20,7 @@ public class AddValidConsultation {
         int nrConsultations = ctrl.getConsultationList().size();
 
         Patient p = ctrl.getPatientList().get(0);
-        int idConsultation = Integer.parseInt(ctrl.getConsultationList().get(nrConsultations).getConsID()) + 1;
+        int idConsultation = Integer.parseInt(ctrl.getConsultationList().get(nrConsultations-1).getConsID()) + 1;
         List<String> meds = new ArrayList<String>();
         meds.add("No med");
         try {
