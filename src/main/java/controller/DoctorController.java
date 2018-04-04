@@ -93,7 +93,7 @@ public class DoctorController {
 			throw new ConsultationException("meds is null");
 
 		if (consID != null && patientSSN != null
-				&& diag != null && meds.size() != 0
+				&& diag != null
 				&& this.getPatientBySSN(patientSSN) > -1
 				&& this.getConsByID(consID) == -1) {
 			Consultation c = new Consultation(consID, patientSSN, diag, meds, date);

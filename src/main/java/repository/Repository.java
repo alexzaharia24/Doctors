@@ -186,9 +186,9 @@ public class Repository {
             i++;
         }
         in.close(); // append
-        FileWriter fw = new FileWriter(consultations, true);
+        FileWriter fw = new FileWriter(consultations, false);
         PrintWriter out = new PrintWriter(fw);
-        for (i = 0; i < sl.length - 1; i++)
+        for (i = 0; i < sl.length; i++)
             out.println(sl[i]);
         out.println(c.toString());
         out.close();
