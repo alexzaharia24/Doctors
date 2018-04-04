@@ -8,7 +8,7 @@ import repository.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AddValidConsultation {
+public class AddInvalidConsultation {
     @Test
     public void addConsultation() {
         String patients = "TestFilePatients.txt";
@@ -18,20 +18,17 @@ public class AddValidConsultation {
 
         int nrConsultations = ctrl.getConsultationList().size();
 
-        Patient p = ctrl.getPatientList().get(0);
         int idConsultation = Integer.parseInt(ctrl.getConsultationList().get(nrConsultations-1).getConsID()) + 1;
         List<String> meds = new ArrayList<String>();
         meds.add("No med");
         try {
-            ctrl.addConsultation(String.valueOf(idConsultation), p.getSSN(), "Test Diag", meds, "04.04.2018");
+            ctrl.addConsultation(String.valueOf(idConsultation), "000", "Should not work", meds, "04.04.2018");
 
         } catch (ConsultationException e) {
-            e.printStackTrace();
+
         }
 
-        Assert.assertEquals(ctrl.getConsultationList().size(), nrConsultations + 1);
-
-
+        Assert.assertEquals(ctrl.getConsultationList().size(), nrConsultations );
 
     }
 }
