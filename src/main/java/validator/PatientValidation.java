@@ -10,13 +10,11 @@ public class PatientValidation {
 		if (name.length() == 0) {
 			throw new PatientException("One of the required fields is empty!");
 		}
-		/*
 		Pattern pattern = Pattern.compile("^[a-zA-Z -]+$");
 		Matcher matcher = pattern.matcher(name);
 		if (!matcher.find()) {
 			throw new PatientException("The \"name\" field has an invalid format!");
 		}
-		*/
 	}
 	
 	public static void ssnValidate(String ssn) throws PatientException {
@@ -34,6 +32,11 @@ public class PatientValidation {
 	public static void addressValidate(String address) throws PatientException {
 		if (address.length() == 0) {
 			throw new PatientException("One of the required fields is empty!");
+		}
+		Pattern pattern = Pattern.compile("^[a-zA-Z -]+$");
+		Matcher matcher = pattern.matcher(address);
+		if (!matcher.find()) {
+			throw new PatientException("The \"address\" field has an invalid format!");
 		}
 	}
 }
