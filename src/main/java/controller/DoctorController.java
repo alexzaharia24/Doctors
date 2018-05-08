@@ -89,30 +89,35 @@ public class DoctorController {
 
 	public void addConsultation(String consID, String patientSSN, String diag,
 			List<String> meds, String date) throws ConsultationException {
-		if (meds == null)
-			throw new ConsultationException("meds is null");
-
+		if (meds == null) //1
+			throw new ConsultationException("meds is null"); //2
+		//3
 		if (consID != null && patientSSN != null
 				&& diag != null
 				&& this.getPatientBySSN(patientSSN) > -1
 				&& this.getConsByID(consID) == -1) {
+			//4
 			Consultation c = new Consultation(consID, patientSSN, diag, meds, date);
 			ConsultationList.add(c);
+			//5
 			try {
 				rep.saveConsultationToFile(c);
 			} catch (IOException e) {
+				//6
 				e.printStackTrace();
 			}
 
+			//7
 			Patient p = new Patient();
 			p = this.getPatientList().get(
 					this.getPatientBySSN(c.getPatientSSN()));
 			p.setConsNum(p.getConsNum() + 1);
 		}
 		else {
+			//8
 			throw new ConsultationException("invalid arguments");
 		}
-
+		//9
 	}
 
 	public List<Patient> getPatientsWithDisease(String disease) throws PatientException {
