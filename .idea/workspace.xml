@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe4bc1e-e791-4ea2-97a3-f1ba2215ccfe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AddConsultationWBT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/GetPatientsWithCommonDiseaseBBT.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TestFileConsultations.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/TestFilePatients.txt" afterPath="$PROJECT_DIR$/TestFilePatients.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DoctorController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/DoctorController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" afterPath="$PROJECT_DIR$/target/classes/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" afterPath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,11 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddConsultationWBT.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BigBangIntegrationTesting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BigBangIntegrationTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddConsultationWBT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddConsultationWBT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="-202">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,6 +53,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddValidConsultation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddValidConsultation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFileConsultations.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestFileConsultations.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,8 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/repository/Repository.java" />
         <option value="$PROJECT_DIR$/TestFilePatients.txt" />
-        <option value="$PROJECT_DIR$/TestFileConsultations.txt" />
         <option value="$PROJECT_DIR$/src/test/java/AddConsultationWBT.java" />
+        <option value="$PROJECT_DIR$/TestFileConsultations.txt" />
       </list>
     </option>
   </component>
@@ -183,6 +208,37 @@
               <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
               <item name="Doctors" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Doctors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Doctors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Doctors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Doctors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Doctors" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Doctors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,6 +255,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\College\repo\6th\ssvv\lab1\Doctors" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddConsultationWBT.tc_4">
+  <component name="RunManager" selected="JUnit.BigBangIntegrationTesting.test_BigBang">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -247,26 +306,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="AddConsultationWBT.tc_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Doctors" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddConsultationWBT" />
-      <option name="METHOD_NAME" value="tc_1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="AddConsultationWBT.tc_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -316,6 +355,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AddConsultationWBT" />
       <option name="METHOD_NAME" value="tc_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BigBangIntegrationTesting.tc_c_1_GetTwoPatientWithCommonValidDisease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Doctors" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BigBangIntegrationTesting" />
+      <option name="METHOD_NAME" value="tc_c_1_GetTwoPatientWithCommonValidDisease" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -389,19 +448,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Run" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.test_BigBang" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_3" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_4" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_4" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.tc_c_1_GetTwoPatientWithCommonValidDisease" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.test_BigBang" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_4" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_3" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.test_BigBang" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.test_BigBang" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BigBangIntegrationTesting.tc_c_1_GetTwoPatientWithCommonValidDisease" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_4" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AddConsultationWBT.tc_2" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +484,7 @@
       <workItem from="1524610238579" duration="10002000" />
       <workItem from="1525181561114" duration="115000" />
       <workItem from="1525765354002" duration="511000" />
-      <workItem from="1525784882290" duration="8000000" />
+      <workItem from="1525784882290" duration="9021000" />
     </task>
     <task id="LOCAL-00001" summary="Maven Tests 1">
       <created>1522154334518</created>
@@ -459,12 +518,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddConsultationWBT_tc_3 - 2018.05.09 at 00h 13m 11s.xml">
-      <configuration name="AddConsultationWBT.tc_3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddConsultationWBT_tc_3 - 2018.05.09 at 00h 14m 34s.xml">
-      <configuration name="AddConsultationWBT.tc_3" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddConsultationWBT_tc_3 - 2018.05.09 at 00h 14m 50s.xml">
       <configuration name="AddConsultationWBT.tc_3" configurationId="JUnit" />
     </history-entry>
@@ -489,9 +542,15 @@
     <history-entry file="AddConsultationWBT_tc_4 - 2018.05.09 at 00h 21m 12s.xml">
       <configuration name="AddConsultationWBT.tc_4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BigBangIntegrationTesting_tc_c_1_GetTwoPatientWithCommonValidDisease - 2018.05.09 at 00h 37m 28s.xml">
+      <configuration name="BigBangIntegrationTesting.tc_c_1_GetTwoPatientWithCommonValidDisease" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangIntegrationTesting_test_BigBang - 2018.05.09 at 00h 37m 37s.xml">
+      <configuration name="BigBangIntegrationTesting.test_BigBang" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26099000" />
+    <option name="totallyTimeSpent" value="27120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -502,8 +561,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27685326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -905,16 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddValidConsultation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#821#829#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ui/DoctorUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -944,16 +993,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BigBangIntegrationTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,21 +1032,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddConsultationWBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BigBangIntegrationTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddValidConsultation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestFileConsultations.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddConsultationWBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
