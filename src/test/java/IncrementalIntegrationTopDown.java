@@ -14,7 +14,7 @@ import java.util.List;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-public class AddConsultationWBT {
+public class IncrementalIntegrationTopDown {
     private String filePatients = "TestFilePatients.txt";
     private String fileConsultations = "TestNonexistentFileConsultations.txt";
     private Repository repo;
@@ -26,8 +26,8 @@ public class AddConsultationWBT {
         repo = mock(Repository.class);
 
         consultations = new ArrayList<Consultation>();
-        Consultation c1 = new Consultation("1", "1234567890123", "Flu", Collections.singletonList("Tea"), "10-04-2018");
-        Consultation c2 = new Consultation("2", "2234567890123", "Flu", Collections.singletonList("Tea"), "25-04-2018");
+        Consultation c1 = new Consultation("2", "1234567890123", "Flu", Collections.singletonList("Tea"), "10-04-2018");
+        Consultation c2 = new Consultation("3", "2234567890123", "Flu", Collections.singletonList("Tea"), "25-04-2018");
         consultations.add(c1);
         consultations.add(c2);
 
@@ -43,54 +43,51 @@ public class AddConsultationWBT {
         ctrl = new DoctorController(repo);
     }
 
-
     @Test
-    public void tc_1() {
+    public void test_topDown_1() {
         initialize();
-
+        // a
+        int initialSize = patients.size();
+        Patient p = new Patient("Tom", "1234567890123", "Home");
         try {
-            ctrl.addConsultation("3", "1234567890123", "Healthy", null, "21-05-2018");
-        } catch (ConsultationException e) {
+            ctrl.addPatient(p);
+        } catch (PatientException e) {
             e.printStackTrace();
         }
-        Assert.assertEquals(ctrl.getConsultationList().size(), 2);
+
+        Assert.assertEquals(patients.size(), initialSize + 1);
     }
 
     @Test
-    public void tc_2() {
-        initialize();
+    public void test_topDown_2() {
+        // a & b
+        test_topDown_1();
 
+        int nrConsultations = consultations.size();
+
+        Patient p = patients.get(0);
+        int idConsultation = Integer.parseInt(consultations.get(nrConsultations - 1).getConsID()) + 1;
+        List<String> meds = new ArrayList<String>();
+        meds.add("No med");
         try {
-            ctrl.addConsultation("3", "1234567890123", null, new ArrayList<String>(), "21-05-2018");
+            ctrl.addConsultation(String.valueOf(idConsultation), p.getSSN(), "Flu", meds, "04.04.2018");
+
         } catch (ConsultationException e) {
             e.printStackTrace();
         }
-        Assert.assertEquals(ctrl.getConsultationList().size(), 2);
+
+        Assert.assertEquals(ctrl.getConsultationList().size(), nrConsultations + 1);
     }
 
     @Test
-    public void tc_3() {
-        Repository repo = new Repository(filePatients, fileConsultations);
-        DoctorController ctrl = new DoctorController(repo);
+    public void test_topDown_3() {
+        // a & b & c
+        test_topDown_2();
 
         try {
-            ctrl.addConsultation("3", "1234567890123", "Healthy", new ArrayList<String>(), "21-05-2018");
-        } catch (ConsultationException e) {
+            Assert.assertEquals(ctrl.getPatientsWithDisease("Flu").size(), 3);
+        } catch (PatientException e) {
             e.printStackTrace();
         }
-        Assert.assertEquals(ctrl.getConsultationList().size(), 1);
     }
-
-    @Test
-    public void tc_4() {
-        initialize();
-
-        try {
-            ctrl.addConsultation("3", "1234567890123", "Cold", Collections.singletonList("Parasinus"), "21-05-2018");
-        } catch (ConsultationException e) {
-            e.printStackTrace();
-        }
-        Assert.assertEquals(ctrl.getConsultationList().size(), 3);
-    }
-
 }
